@@ -1,0 +1,98 @@
+/* * {
+  box-sizing: border-box;
+  outline: 1px solid lightgreen;
+} */
+
+/* Globales */
+:root {
+  --fuentePrincipal: "Poppins", sans-serif;
+  --colosPrincipal: #303030;
+  --colosSecundario: #969696;
+}
+
+body {
+  background-color: var(--colosPrincipal);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: white;
+}
+/* ----------------------------------- */
+
+/* Barra de busqueda */
+.buscar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.barraBusqueda {
+  background-color: var(--colosSecundario);
+  border-radius: 5px;
+  border: 0;
+  border: 1px solid white;
+  height: 2.3rem;
+  outline: 0;
+}
+
+::placeholder {
+  color: black;
+}
+/* ----------------------------------- */
+
+/* Cuerpo */
+.cuerpo {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  justify-content: space-around;
+  position: relative;
+  /* display: grid;
+  grid-template-columns: repeat(auto-fill, 50%); */
+}
+
+.info {
+  background-color: var(--colosSecundario);
+  height: 26rem;
+  width: 40rem;
+  margin: 1rem;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 50%);
+  z-index: 0;
+}
+
+.lista {
+  background-color: var(--colosSecundario);
+  height: 26rem;
+  width: 25rem;
+  margin: 1rem;
+  border-radius: 5px;
+}
+
+/* ----------------------------------- */
+
+/* Info */
+.imagen {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.pokeball {
+  margin: auto;
+  height: 100%;
+  width: 150%;
+  z-index: 1;
+}
+
+.statsNombre {
+  color: black;
+  margin-top: 1rem;
+  text-align: center;
+}
+/* ------------------------------------ */
