@@ -38,6 +38,13 @@ h4 {
   outline: 0;
 }
 
+.logo {
+  margin: 10px auto;
+  display: block;
+  margin: 1.5rem 0;
+  max-width: 14rem;
+}
+
 ::placeholder {
   color: black;
 }
@@ -81,7 +88,6 @@ h4 {
   position: relative;
   display: block;
   justify-content: center;
-
 }
 
 .pokeball {
@@ -187,6 +193,9 @@ h4 {
     color: black;
     margin: auto;
   }
-
+  .logo {
+    display: block;
+    margin: 0px auto;
+  }
 }
 /* ------------------------------------ */
