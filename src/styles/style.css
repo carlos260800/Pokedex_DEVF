@@ -136,7 +136,7 @@ h4 {
 /* ------------------------------------ */
 
 /* Media Queris */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .buscar {
     display: flex;
     align-items: center;
@@ -174,7 +174,7 @@ h4 {
   }
   .scroll {
     overflow-y: scroll;
-    height: calc(70vh - 20rem);
+    height: calc(70vh - 19rem);
   }
   .info {
     height: 20rem;
