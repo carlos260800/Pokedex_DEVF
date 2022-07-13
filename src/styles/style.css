@@ -49,7 +49,7 @@ h4 {
   display: flex;
   align-items: center;
   border-radius: 5px;
-  justify-content: space-around;
+  justify-content: center;
   position: relative;
   /* display: grid;
   grid-template-columns: repeat(auto-fill, 50%); */
@@ -81,18 +81,115 @@ h4 {
   position: relative;
   display: flex;
   justify-content: center;
+  margin-top: -5rem;
 }
 
 .pokeball {
   margin: auto;
-  height: 100%;
-  width: 150%;
-  z-index: 1;
+  height: 90%;
+  width: 130%;
 }
 
 .statsNombre {
   color: black;
   margin-top: 1rem;
   text-align: center;
+}
+
+.stats {
+  z-index: 3;
+  color: black;
+  margin: auto;
+}
+/* ------------------------------------ */
+
+/* Lista */
+.tarjeta {
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+.scroll {
+  overflow-y: scroll;
+  height: calc(100vh - 20rem);
+}
+
+.bg-card {
+  background-color: var(--colosPrincipal);
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+.centrarTarjeta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.espacioTarjeta {
+  padding: 1rem;
+  border-radius: 5px;
+}
+/* ------------------------------------ */
+
+/* Media Queris */
+@media (max-width: 768px) {
+  .buscar {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .barraBusqueda {
+    background-color: var(--colosSecundario);
+    border-radius: 5px;
+    border: 0;
+    border: 1px solid white;
+    height: 2.3rem;
+    outline: 0;
+    width: 100%;
+  }
+  .cuerpo {
+    margin-top: 0.1rem;
+    display: block;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: center;
+    position: absolute;
+    /* display: grid;
+    grid-template-columns: repeat(auto-fill, 50%); */
+  }
+  .lista {
+    background-color: var(--colosSecundario);
+    height: 13rem;
+    width: 24rem;
+    margin: 1rem;
+    border-radius: 5px;
+  }
+  .pokeball {
+    padding-top: 0.1rem;
+    height: 1%;
+    width: 50%;
+  }
+  .scroll {
+    overflow-y: scroll;
+    height: calc(46vh - 16rem);
+  }
+  .info {
+    height: 20rem;
+    width: 24rem;
+    display: table;
+    text-align: center;
+  }
+  .stats {
+    z-index: 3;
+    color: black;
+    margin: auto;
+  }
+  .imagen {
+    margin-top: -2rem;
+  }
 }
 /* ------------------------------------ */
