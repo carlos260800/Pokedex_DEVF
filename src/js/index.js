@@ -85,8 +85,6 @@ const pokeStats = (data, id) => {
       id +
       ".png",
     data.forms[0].name,
-    data.weight,
-    data.height,
     [
       data.stats[0].base_stat,
       data.stats[1].base_stat,
