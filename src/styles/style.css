@@ -170,7 +170,7 @@ h4 {
   .lista {
     background-color: var(--colosSecundario);
     height: 20rem;
-    width: 23.7rem;
+    width: 23rem;
     margin: 1rem;
     border-radius: 5px;
   }
@@ -184,7 +184,7 @@ h4 {
   }
   .info {
     height: 20rem;
-    width: 23.7rem;
+    width: 23rem;
     display: table;
     text-align: center;
   }
