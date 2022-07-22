@@ -22,6 +22,15 @@ h4 {
 }
 /* ----------------------------------- */
 
+/* header */
+.header{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+/* ----------------------------------- */
+
 /* Barra de busqueda */
 .buscar {
   display: flex;
@@ -99,7 +108,7 @@ h4 {
 .statsNombre {
   color: black;
   margin-top: 1rem;
-  text-align: center;
+  text-align: start;
 }
 
 .stats {
@@ -177,6 +186,7 @@ h4 {
   .pokeball {
     height: 100%;
     width: 50%;
+    
   }
   .scroll {
     overflow-y: scroll;
@@ -198,6 +208,19 @@ h4 {
     margin: 0px auto;
     margin: rem 0;
     max-width: 10rem;
+    padding-top: 2rem;
+  }
+  .imagen {
+    padding-top: 2rem;
+  }
+  .header{
+    display: flex;
+    flex-flow: row-reverse  wrap-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  .statsNombre {
+    text-align: center;
   }
 }
 /* ------------------------------------ */
