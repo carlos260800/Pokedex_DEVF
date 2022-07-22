@@ -72,3 +72,5 @@ const pokeStats = (data, id) => {
   document.getElementById("velocidad").innerHTML =
     "<p><b>Velocidad:</b> " + data.stats[5].base_stat + "</p>";
 };
+
+// Mobile

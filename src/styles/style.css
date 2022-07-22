@@ -11,7 +11,8 @@
 }
 
 body {
-  background-color: var(--colosPrincipal);
+  /* background-color: var(--colosPrincipal); */
+  background-image: url("../../assets/fondo.jpg");
 }
 
 h1,
@@ -23,10 +24,9 @@ h4 {
 /* ----------------------------------- */
 
 /* header */
-.header{
+.header {
   display: flex;
   justify-content: space-between;
-  
 }
 
 /* ----------------------------------- */
@@ -152,6 +152,9 @@ h4 {
 
 /* Media Queris */
 @media (max-width: 575px) {
+  body {
+    background-image: url("../../assets/fondo2.jpg");
+  }
   .buscar {
     display: flex;
     align-items: center;
@@ -186,7 +189,6 @@ h4 {
   .pokeball {
     height: 100%;
     width: 50%;
-    
   }
   .scroll {
     overflow-y: scroll;
@@ -213,14 +215,17 @@ h4 {
   .imagen {
     padding-top: 2rem;
   }
-  .header{
+  .header {
     display: flex;
-    flex-flow: row-reverse  wrap-reverse;
+    flex-flow: row-reverse wrap-reverse;
     align-items: center;
     justify-content: center;
   }
   .statsNombre {
     text-align: center;
   }
+  /* .ocultar {
+    display: none;
+  } */
 }
 /* ------------------------------------ */

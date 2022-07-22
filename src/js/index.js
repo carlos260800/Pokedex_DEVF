@@ -20,3 +20,6 @@ class Pokemon {
 
 // Ejecuta peticion para la lista
 fetchPoke();
+
+
+$('#exampleModalLong').modal()
